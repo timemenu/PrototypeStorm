@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.quickmenu.storm</groupId>
-  <artifactId>hellostorm</artifactId>
+  <artifactId>PrototypeStorm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>hellostorm</name>
+  <name>PrototypeStorm</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -26,6 +26,16 @@
     	<artifactId>storm-core</artifactId>
     	<version>0.9.3</version>
     </dependency>
+    <dependency>
+		<groupId>redis.clients</groupId>
+		<artifactId>jedis</artifactId>
+		<version>2.7.2</version>
+	</dependency>
+	<dependency>
+		<groupId>org.mongodb</groupId>
+		<artifactId>mongo-java-driver</artifactId>
+		<version>3.0.2</version>
+	</dependency>
   </dependencies>
   
   <build>
