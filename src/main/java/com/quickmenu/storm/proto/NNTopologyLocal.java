@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.quickmenu.storm.hellostorm;
+package com.quickmenu.storm.proto;
 
 import backtype.storm.Config;
 import backtype.storm.LocalCluster;

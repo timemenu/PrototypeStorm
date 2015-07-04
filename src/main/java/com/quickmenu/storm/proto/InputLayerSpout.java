@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.quickmenu.storm.hellostorm;
+package com.quickmenu.storm.proto;
 
 import java.util.Map;
 
@@ -76,7 +76,7 @@ public class InputLayerSpout extends BaseRichSpout{
 
 	public void declareOutputFields(OutputFieldsDeclarer declarer) {
 		//필드 값을 정의하는 함수
-		declarer.declare(new Fields("say"));
+		declarer.declare(new Fields("access"));
 	}
 	
 }
